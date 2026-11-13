@@ -46,7 +46,9 @@ projects/
 └── 2.overSmart/                      # 2. Overstand back end
     ├── 2.1.overGuard/                # 2.1 Protect and align chat flow (parent group, no docs/src/features/testing)
     │   ├── 2.1.1.mainTrace/          # Discussion thread representation
-    │   └── 2.1.2.overGuide/          # Keep on track; constraints and contextual paths
+    │   ├── 2.1.2.overGuide/          # Keep on track; constraints and contextual paths
+    │   ├── 2.1.3.overView/           # Check and verify logic and constraints
+    │   └── 2.1.4.overTeam/           # Check, verify and ensure human alignment
     │
     └── 2.2.overStand/
         ├── 2.2.1.attentiOnTime/      # Just-in-time parallel modules, content swapped in and out
@@ -90,7 +92,7 @@ projects/
 |--------|---------|
 | `docs/` | Development documentation (`dev/initialPrompt.md`: the founding prompt for the project) |
 | `src/` | Source code |
-| `features/` | `features.md` now; Gherkin `.feature` files only in reverse engineering, after a section is working and approved and the human requests them (see `DevelopNotes.md`) |
+| `features/` | `features.md`: the feature list and its hierarchy, names only, no details. Gherkin `.feature` files only in reverse engineering, after a section is working and approved and the human requests them (see `DevelopNotes.md`) |
 | `testing/unit/` | Unit tests, written only in reverse engineering, on the same conditions as Gherkin |
 | `testing/e2e/` | End-to-end tests, on the same conditions as Gherkin |
 
