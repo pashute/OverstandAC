@@ -1,3 +1,11 @@
+
+
+
+todo:
+make proj/ front, end. 
+fix names and everything according to aiAssess
+write todo
+
 Draft files: 
 
 projPrompt
